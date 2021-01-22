@@ -13,6 +13,7 @@ function addProject(data) {
 }
 
 function getProjects() {
-    return db('projects as p')
-    .select('p.project_name', 'p.project_description', 'p.project_completed')
+    return db('projects')
+    // .select('p.project_name', 'p.project_description', 'p.project_completed')
 }
+

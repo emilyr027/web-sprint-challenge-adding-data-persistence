@@ -13,9 +13,10 @@ router.post('/', (req, res) => {
       })
   })
 
-router.get('/', async (req, res) => {
+router.get('/', (req, res) => {
   Projects.getProjects()
   .then((data) => {
+      // res.status(200).json(data.id, data.project_name, data.project_description, data.project_completed.boolean() )
       res.status(200).json(data)
   })
   .catch(err => {
