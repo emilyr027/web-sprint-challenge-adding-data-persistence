@@ -8,7 +8,7 @@ router.post('/', async (req, res) => {
     const addNewResource = await Resources.addResource(req.body)
     res.status(201).json(addNewResource)
   } catch (err) {
-    res.status(500).json({ message: 'error adding a new resource' })
+    res.status(500).json({ message: 'error adding resource' })
   }
 })
 
