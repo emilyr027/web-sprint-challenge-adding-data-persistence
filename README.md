@@ -53,10 +53,10 @@ Your finished project must meet all of the following requirements:
 - [ ] Design the data model and use knex migrations to create the database and tables.
 - [ ] Build an API inside the `api` folder with endpoints for:
 
-  - [ ] `[POST] /api/resources`
+  - [X] `[POST] /api/resources`
     - Example of response body: `{"resource_id":1,"resource_name":"foo","resource_description":null}`
 
-  - [ ] `[GET] /api/resources`
+  - [X] `[GET] /api/resources`
     - Example of response body: `[{"resource_id":1,"resource_name":"foo","resource_description":null}]`
 
   - [ ] `[POST] /api/projects`
