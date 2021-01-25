@@ -14,6 +14,5 @@ function addProject(data) {
 
 function getProjects() {
     return db('projects')
-    // .select('p.project_name', 'p.project_description', 'p.project_completed')
 }
 
